@@ -79,7 +79,7 @@ body {
 
 /* **********************************  Part I: CSS Positioning Exercise 3 *************************** */
 
-.one {
+/* .one {
   width: 400px;
   height: 400px;
   background-color: red;
@@ -114,4 +114,41 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
+} */
+
+/* **********************************  Part I: CSS Positioning Exercise 4 *************************** */
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  position: absolute;
+  z-index: -1;
+}
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
